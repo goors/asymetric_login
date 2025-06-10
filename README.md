@@ -82,3 +82,6 @@ Enter your choice (1-3):
 ## License
 
 ISC
+
+## Python version
+[python version](https://gist.github.com/goors/cac8c8028f012c06c247599e0b4bebc9) (for running same dman thing in python)
