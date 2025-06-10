@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2022",       // Use a modern ES target (like ES2022 or ESNext)
+    "module": "commonjs",     // Node.js typically uses CommonJS modules
+    "lib": ["es2022"],        // Include standard library features
+    "esModuleInterop": true,  // Recommended for better import compatibility
+    "forceConsistentCasingInFileNames": false,
+    "strict": true,           // Highly recommended for type safety
+    "skipLibCheck": true,     // Skip type checking of declaration files
+    "types": ["node"],        // Crucial for Node.js types like 'crypto', 'fs'
+    "outDir": "./dist"        // Output directory for compiled JS (ts-node doesn't use it, but good practice)
+  },
+  "include": [
+    "**/*.ts"                 // Include all .ts files in the project
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
